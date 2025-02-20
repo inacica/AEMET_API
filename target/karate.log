@@ -1,0 +1,87 @@
+12:57:23.712 [main]  INFO  com.intuit.karate - Karate version: 1.5.1
+12:57:23.951 [main]  DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+12:57:23.970 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 50
+12:57:24.804 [main]  INFO  com.intuit.karate - ########## LOGS ########## 
+12:57:24.871 [main]  INFO  com.intuit.karate - ########## Test Environment ########## 
+12:57:25.201 [main]  DEBUG com.intuit.karate - request:
+1 > GET https://opendata.aemet.es/opendata/api/antartida/datos/fechaini/2000-01-05T00:00:00/fechafin/2001-02-05T00:00:00UTC/estacion/89064
+1 > api-key: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJpc3RyYXRpLmlubmFAZ21haWwuY29tIiwianRpIjoiM2NiYjgyZTMtYjY2NS00ZjY2LWIxMjUtZDE2ZTAwMGMxYmI5IiwiaXNzIjoiQUVNRVQiLCJpYXQiOjE3Mzk1Njc4MzMsInVzZXJJZCI6IjNjYmI4MmUzLWI2NjUtNGY2Ni1iMTI1LWQxNmUwMDBjMWJiOSIsInJvbGUiOiIifQ.4MuAaxG_IvNh_qhKkYKZYMnYOCKsrJvpmQtcOXHUW7E
+1 > Host: opendata.aemet.es
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.14)
+1 > Accept-Encoding: gzip,deflate
+
+
+12:57:25.388 [main]  DEBUG com.intuit.karate - response time in milliseconds: 178
+1 < 200
+1 < Date: Thu, 20 Feb 2025 11:57:25 GMT
+1 < Connection: close
+1 < Content-Type: text/plain; charset=UTF-8
+1 < Set-Cookie: TS017a6cb0=0137e3526f8376fc4b31b2754c2f9f4387c5cde3e63c526119d08985d7fee18d2dec7248da04b81201db8eaa0f182ac183a7e846c2; Path=/; Domain=.opendata.aemet.es
+1 < Transfer-Encoding: chunked
+
+
+12:57:25.392 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 50
+12:57:25.400 [main]  INFO  com.intuit.karate - ########## LOGS ########## 
+12:57:25.403 [main]  INFO  com.intuit.karate - ########## Test Environment ########## 
+12:57:25.411 [main]  DEBUG com.intuit.karate - request:
+1 > GET https://opendata.aemet.es/opendata/api/antartida/datos/fechaini/2007-12-05/fechafin/2008-05-05T00:00:00UTC/estacion/89064R
+1 > api-key: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJpc3RyYXRpLmlubmFAZ21haWwuY29tIiwianRpIjoiM2NiYjgyZTMtYjY2NS00ZjY2LWIxMjUtZDE2ZTAwMGMxYmI5IiwiaXNzIjoiQUVNRVQiLCJpYXQiOjE3Mzk1Njc4MzMsInVzZXJJZCI6IjNjYmI4MmUzLWI2NjUtNGY2Ni1iMTI1LWQxNmUwMDBjMWJiOSIsInJvbGUiOiIifQ.4MuAaxG_IvNh_qhKkYKZYMnYOCKsrJvpmQtcOXHUW7E
+1 > Host: opendata.aemet.es
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.14)
+1 > Accept-Encoding: gzip,deflate
+
+
+12:57:25.466 [main]  DEBUG com.intuit.karate - response time in milliseconds: 53
+1 < 200
+1 < Date: Thu, 20 Feb 2025 11:57:25 GMT
+1 < Connection: close
+1 < Content-Type: text/plain; charset=UTF-8
+1 < Set-Cookie: TS017a6cb0=0137e3526fe2f3fab9e0fbb5aadb7c8c7d610818e8d6e235796b09cce6eae28d0dd7507d650176f0aa540c7b39ec7916c3d71dc806; Path=/; Domain=.opendata.aemet.es
+1 < Transfer-Encoding: chunked
+
+
+12:57:25.469 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 50
+12:57:25.473 [main]  INFO  com.intuit.karate - ########## LOGS ########## 
+12:57:25.476 [main]  INFO  com.intuit.karate - ########## Test Environment ########## 
+12:57:25.480 [main]  DEBUG com.intuit.karate - request:
+1 > GET https://opendata.aemet.es/opendata/api/antartida/datos/fechaini/2002-01-05T00:00:00UTC/fechafin/2002-02-06T00:00/estacion/89064RA
+1 > api-key: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJpc3RyYXRpLmlubmFAZ21haWwuY29tIiwianRpIjoiM2NiYjgyZTMtYjY2NS00ZjY2LWIxMjUtZDE2ZTAwMGMxYmI5IiwiaXNzIjoiQUVNRVQiLCJpYXQiOjE3Mzk1Njc4MzMsInVzZXJJZCI6IjNjYmI4MmUzLWI2NjUtNGY2Ni1iMTI1LWQxNmUwMDBjMWJiOSIsInJvbGUiOiIifQ.4MuAaxG_IvNh_qhKkYKZYMnYOCKsrJvpmQtcOXHUW7E
+1 > Host: opendata.aemet.es
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.14)
+1 > Accept-Encoding: gzip,deflate
+
+
+12:57:25.536 [main]  DEBUG com.intuit.karate - response time in milliseconds: 54
+1 < 200
+1 < Date: Thu, 20 Feb 2025 11:57:25 GMT
+1 < Connection: close
+1 < Content-Type: text/plain; charset=UTF-8
+1 < Set-Cookie: TS017a6cb0=0137e3526fe9924341422931414d163bb00c03c5c3d60f88e9a1d15e14aed839f1dd67bf6150916093a5de190e4c1771c1670e43d3; Path=/; Domain=.opendata.aemet.es
+1 < Transfer-Encoding: chunked
+
+
+12:57:25.540 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 50
+12:57:25.544 [main]  INFO  com.intuit.karate - ########## LOGS ########## 
+12:57:25.546 [main]  INFO  com.intuit.karate - ########## Test Environment ########## 
+12:57:25.550 [main]  DEBUG com.intuit.karate - request:
+1 > GET https://opendata.aemet.es/opendata/api/antartida/datos/fechaini/2005-01-05T00:00:00UTC/fechafin/2005-02-28T00:00:00UTC/estacion/12
+1 > api-key: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJpc3RyYXRpLmlubmFAZ21haWwuY29tIiwianRpIjoiM2NiYjgyZTMtYjY2NS00ZjY2LWIxMjUtZDE2ZTAwMGMxYmI5IiwiaXNzIjoiQUVNRVQiLCJpYXQiOjE3Mzk1Njc4MzMsInVzZXJJZCI6IjNjYmI4MmUzLWI2NjUtNGY2Ni1iMTI1LWQxNmUwMDBjMWJiOSIsInJvbGUiOiIifQ.4MuAaxG_IvNh_qhKkYKZYMnYOCKsrJvpmQtcOXHUW7E
+1 > Host: opendata.aemet.es
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.14)
+1 > Accept-Encoding: gzip,deflate
+
+
+12:57:25.605 [main]  DEBUG com.intuit.karate - response time in milliseconds: 54
+1 < 200
+1 < Date: Thu, 20 Feb 2025 11:57:25 GMT
+1 < Connection: close
+1 < Content-Type: text/plain; charset=UTF-8
+1 < Set-Cookie: TS017a6cb0=0137e3526f020e5a360183d78fe93f3f33be95511c30ff74ddb2cc4932a15fc13e89c3fb21bf25f85987d34a0596e93c9915179017; Path=/; Domain=.opendata.aemet.es
+1 < Transfer-Encoding: chunked
+
+
+12:57:26.248 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) api-tests/get_atarctida_weather.feature

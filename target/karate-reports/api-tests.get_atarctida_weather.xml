@@ -1,0 +1,25 @@
+<testsuite failures="0" name="api-tests/get_atarctida_weather.feature" skipped="0" tests="4" time="0.69473"><testcase classname="api-tests.get_atarctida_weather" name="Negative tests when the date format or station format is wrong." time="0.510547"><system-out>* url baseUrl.aemet ....................................................... passed
+* configure headers = read('classpath:karate-headers.js') ................. passed
+Given path 'api','antartida','datos','fechaini',"2000-01-05T00:00:00",'fechafin',"2001-02-05T00:00:00UTC",'estacion',"89064" . passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+</system-out></testcase>
+<testcase classname="api-tests.get_atarctida_weather" name="Negative tests when the date format or station format is wrong." time="0.063689"><system-out>* url baseUrl.aemet ....................................................... passed
+* configure headers = read('classpath:karate-headers.js') ................. passed
+Given path 'api','antartida','datos','fechaini',"2007-12-05",'fechafin',"2008-05-05T00:00:00UTC",'estacion',"89064R" . passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+</system-out></testcase>
+<testcase classname="api-tests.get_atarctida_weather" name="Negative tests when the date format or station format is wrong." time="0.06189"><system-out>* url baseUrl.aemet ....................................................... passed
+* configure headers = read('classpath:karate-headers.js') ................. passed
+Given path 'api','antartida','datos','fechaini',"2002-01-05T00:00:00UTC",'fechafin',"2002-02-06T00:00",'estacion',"89064RA" . passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+</system-out></testcase>
+<testcase classname="api-tests.get_atarctida_weather" name="Negative tests when the date format or station format is wrong." time="0.058604"><system-out>* url baseUrl.aemet ....................................................... passed
+* configure headers = read('classpath:karate-headers.js') ................. passed
+Given path 'api','antartida','datos','fechaini',"2005-01-05T00:00:00UTC",'fechafin',"2005-02-28T00:00:00UTC",'estacion',"12" . passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+</system-out></testcase>
+</testsuite>

@@ -1,0 +1,6 @@
+{
+    "descripcion": "exito",
+    "estado": 200,
+    "datos": "#('https://opendata.aemet.es/opendata/sh/' + '#regex [0-9]{8}\\_[0-9]{12}' + '_json')",
+    "metadatos": "https://opendata.aemet.es/opendata/sh/2cc612ba"
+  }

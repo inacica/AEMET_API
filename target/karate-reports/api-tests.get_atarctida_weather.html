@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script type="text/javascript" src="res/Resemble.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.capture("report_feature",{distinct_id:"e79241b4-5ebb-4777-914d-ea74dfcd15bc",karate_version:"1.5.1",karate_meta:null});
+  }
+});
+</script>
+
+    <title>api-tests.get_atarctida_weather</title>
+  </head>
+  <body>
+    <div id="root-container">
+      <div id="leftnav">
+        
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">4</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-env">
+    <div></div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>
+  <div id="nav-date">
+    <div>2025-02-20 12:57:25 PM</div>
+  </div>
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[3.1:59]"><span>[3.1:59]</span> <span>Negative tests when the date format or station format is wrong.</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[3.2:60]"><span>[3.2:60]</span> <span>Negative tests when the date format or station format is wrong.</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[3.3:61]"><span>[3.3:61]</span> <span>Negative tests when the date format or station format is wrong.</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[3.4:62]"><span>[3.4:62]</span> <span>Negative tests when the date format or station format is wrong.</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">api-tests/get_atarctida_weather.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Test the AEMET endpoints.</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[3.1:59]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[3.1:59]</span>
+                <span class="scenario-name">Negative tests when the date format or station format is wrong.</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>511</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[3.1:59]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[3.1:59]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseUrl.aemet</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.4">12:57:24.804 ########## LOGS ########## 
+12:57:24.872 ########## Test Environment ########## 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[3.1:59]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>configure headers = read(&#39;classpath:karate-headers.js&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">6</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.51">
+      <div class="step-ref passed">51</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;api&#39;,&#39;antartida&#39;,&#39;datos&#39;,&#39;fechaini&#39;,&quot;2000-01-05T00:00:00&quot;,&#39;fechafin&#39;,&quot;2001-02-05T00:00:00UTC&quot;,&#39;estacion&#39;,&quot;89064&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">6</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.52">
+      <div class="step-ref passed">52</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">498</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.52">12:57:25.203 request:
+1 &gt; GET https://opendata.aemet.es/opendata/api/antartida/datos/fechaini/2000-01-05T00:00:00/fechafin/2001-02-05T00:00:00UTC/estacion/89064
+1 &gt; api-key: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJpc3RyYXRpLmlubmFAZ21haWwuY29tIiwianRpIjoiM2NiYjgyZTMtYjY2NS00ZjY2LWIxMjUtZDE2ZTAwMGMxYmI5IiwiaXNzIjoiQUVNRVQiLCJpYXQiOjE3Mzk1Njc4MzMsInVzZXJJZCI6IjNjYmI4MmUzLWI2NjUtNGY2Ni1iMTI1LWQxNmUwMDBjMWJiOSIsInJvbGUiOiIifQ.4MuAaxG_IvNh_qhKkYKZYMnYOCKsrJvpmQtcOXHUW7E
+1 &gt; Host: opendata.aemet.es
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.14)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+12:57:25.389 response time in milliseconds: 178
+1 &lt; 200
+1 &lt; Date: Thu, 20 Feb 2025 11:57:25 GMT
+1 &lt; Connection: close
+1 &lt; Content-Type: text/plain; charset=UTF-8
+1 &lt; Set-Cookie: TS017a6cb0=0137e3526f8376fc4b31b2754c2f9f4387c5cde3e63c526119d08985d7fee18d2dec7248da04b81201db8eaa0f182ac183a7e846c2; Path=/; Domain=.opendata.aemet.es
+1 &lt; Transfer-Encoding: chunked
+
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.53">
+      <div class="step-ref passed">53</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[3.2:60]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[3.2:60]</span>
+                <span class="scenario-name">Negative tests when the date format or station format is wrong.</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>64</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[3.2:60]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[3.2:60]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseUrl.aemet</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.4">12:57:25.400 ########## LOGS ########## 
+12:57:25.404 ########## Test Environment ########## 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[3.2:60]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>configure headers = read(&#39;classpath:karate-headers.js&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.51">
+      <div class="step-ref passed">51</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;api&#39;,&#39;antartida&#39;,&#39;datos&#39;,&#39;fechaini&#39;,&quot;2007-12-05&quot;,&#39;fechafin&#39;,&quot;2008-05-05T00:00:00UTC&quot;,&#39;estacion&#39;,&quot;89064R&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.52">
+      <div class="step-ref passed">52</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">60</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.52">12:57:25.413 request:
+1 &gt; GET https://opendata.aemet.es/opendata/api/antartida/datos/fechaini/2007-12-05/fechafin/2008-05-05T00:00:00UTC/estacion/89064R
+1 &gt; api-key: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJpc3RyYXRpLmlubmFAZ21haWwuY29tIiwianRpIjoiM2NiYjgyZTMtYjY2NS00ZjY2LWIxMjUtZDE2ZTAwMGMxYmI5IiwiaXNzIjoiQUVNRVQiLCJpYXQiOjE3Mzk1Njc4MzMsInVzZXJJZCI6IjNjYmI4MmUzLWI2NjUtNGY2Ni1iMTI1LWQxNmUwMDBjMWJiOSIsInJvbGUiOiIifQ.4MuAaxG_IvNh_qhKkYKZYMnYOCKsrJvpmQtcOXHUW7E
+1 &gt; Host: opendata.aemet.es
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.14)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+12:57:25.468 response time in milliseconds: 53
+1 &lt; 200
+1 &lt; Date: Thu, 20 Feb 2025 11:57:25 GMT
+1 &lt; Connection: close
+1 &lt; Content-Type: text/plain; charset=UTF-8
+1 &lt; Set-Cookie: TS017a6cb0=0137e3526fe2f3fab9e0fbb5aadb7c8c7d610818e8d6e235796b09cce6eae28d0dd7507d650176f0aa540c7b39ec7916c3d71dc806; Path=/; Domain=.opendata.aemet.es
+1 &lt; Transfer-Encoding: chunked
+
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.53">
+      <div class="step-ref passed">53</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[3.3:61]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[3.3:61]</span>
+                <span class="scenario-name">Negative tests when the date format or station format is wrong.</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>62</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[3.3:61]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[3.3:61]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseUrl.aemet</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="3.4">12:57:25.474 ########## LOGS ########## 
+12:57:25.476 ########## Test Environment ########## 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[3.3:61]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>configure headers = read(&#39;classpath:karate-headers.js&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.51">
+      <div class="step-ref passed">51</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;api&#39;,&#39;antartida&#39;,&#39;datos&#39;,&#39;fechaini&#39;,&quot;2002-01-05T00:00:00UTC&quot;,&#39;fechafin&#39;,&quot;2002-02-06T00:00&quot;,&#39;estacion&#39;,&quot;89064RA&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.52">
+      <div class="step-ref passed">52</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">60</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="3.52">12:57:25.481 request:
+1 &gt; GET https://opendata.aemet.es/opendata/api/antartida/datos/fechaini/2002-01-05T00:00:00UTC/fechafin/2002-02-06T00:00/estacion/89064RA
+1 &gt; api-key: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJpc3RyYXRpLmlubmFAZ21haWwuY29tIiwianRpIjoiM2NiYjgyZTMtYjY2NS00ZjY2LWIxMjUtZDE2ZTAwMGMxYmI5IiwiaXNzIjoiQUVNRVQiLCJpYXQiOjE3Mzk1Njc4MzMsInVzZXJJZCI6IjNjYmI4MmUzLWI2NjUtNGY2Ni1iMTI1LWQxNmUwMDBjMWJiOSIsInJvbGUiOiIifQ.4MuAaxG_IvNh_qhKkYKZYMnYOCKsrJvpmQtcOXHUW7E
+1 &gt; Host: opendata.aemet.es
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.14)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+12:57:25.539 response time in milliseconds: 54
+1 &lt; 200
+1 &lt; Date: Thu, 20 Feb 2025 11:57:25 GMT
+1 &lt; Connection: close
+1 &lt; Content-Type: text/plain; charset=UTF-8
+1 &lt; Set-Cookie: TS017a6cb0=0137e3526fe9924341422931414d163bb00c03c5c3d60f88e9a1d15e14aed839f1dd67bf6150916093a5de190e4c1771c1670e43d3; Path=/; Domain=.opendata.aemet.es
+1 &lt; Transfer-Encoding: chunked
+
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.53">
+      <div class="step-ref passed">53</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[3.4:62]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[3.4:62]</span>
+                <span class="scenario-name">Negative tests when the date format or station format is wrong.</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>59</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[3.4:62]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[3.4:62]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseUrl.aemet</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="4.4">12:57:25.544 ########## LOGS ########## 
+12:57:25.546 ########## Test Environment ########## 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[3.4:62]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>configure headers = read(&#39;classpath:karate-headers.js&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.51">
+      <div class="step-ref passed">51</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;api&#39;,&#39;antartida&#39;,&#39;datos&#39;,&#39;fechaini&#39;,&quot;2005-01-05T00:00:00UTC&quot;,&#39;fechafin&#39;,&quot;2005-02-28T00:00:00UTC&quot;,&#39;estacion&#39;,&quot;12&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.52">
+      <div class="step-ref passed">52</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">57</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="4.52">12:57:25.551 request:
+1 &gt; GET https://opendata.aemet.es/opendata/api/antartida/datos/fechaini/2005-01-05T00:00:00UTC/fechafin/2005-02-28T00:00:00UTC/estacion/12
+1 &gt; api-key: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJpc3RyYXRpLmlubmFAZ21haWwuY29tIiwianRpIjoiM2NiYjgyZTMtYjY2NS00ZjY2LWIxMjUtZDE2ZTAwMGMxYmI5IiwiaXNzIjoiQUVNRVQiLCJpYXQiOjE3Mzk1Njc4MzMsInVzZXJJZCI6IjNjYmI4MmUzLWI2NjUtNGY2Ni1iMTI1LWQxNmUwMDBjMWJiOSIsInJvbGUiOiIifQ.4MuAaxG_IvNh_qhKkYKZYMnYOCKsrJvpmQtcOXHUW7E
+1 &gt; Host: opendata.aemet.es
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.14)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+12:57:25.606 response time in milliseconds: 54
+1 &lt; 200
+1 &lt; Date: Thu, 20 Feb 2025 11:57:25 GMT
+1 &lt; Connection: close
+1 &lt; Content-Type: text/plain; charset=UTF-8
+1 &lt; Set-Cookie: TS017a6cb0=0137e3526f020e5a360183d78fe93f3f33be95511c30ff74ddb2cc4932a15fc13e89c3fb21bf25f85987d34a0596e93c9915179017; Path=/; Domain=.opendata.aemet.es
+1 &lt; Transfer-Encoding: chunked
+
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.53">
+      <div class="step-ref passed">53</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
